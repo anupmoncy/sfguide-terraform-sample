@@ -8,6 +8,7 @@ terraform {
 }
 
 provider "snowflake" {
+  account = "nkvlcnt-dp40943"
   role = "SYSADMIN"
 }
 
